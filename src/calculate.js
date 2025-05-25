@@ -65,7 +65,7 @@ function operate(){
             firstNumber = firstNumber * secondNumber
             break
         case '/':
-            firstNumber = firstNumber / secondNumber
+            firstNumber = Number((firstNumber/secondNumber).toFixed(2))
             break
         default:
             break
@@ -76,7 +76,7 @@ function operate(){
 
 function total(){
     if(number == ""){
-        screenNumber.innerHTML = "Sintax Error"
+        screenNumber.innerHTML = "Ingresa un numero"
     }
     else{
         operate()

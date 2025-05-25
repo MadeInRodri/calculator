@@ -82,7 +82,7 @@ function total(){
         operate()
     }
     actualOperation = ""
-    firstNumber = 0
+    number = firstNumber
     isOperate = false
 }
 

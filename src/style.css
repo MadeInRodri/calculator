@@ -117,6 +117,15 @@ button {
 
 .char:active{
   background-color: var(--shadow-button-color);
+  color: var(--button-color);
+}
+
+.opt-button:active{
+  background-color: var(--shadow-button-opt-color);
+}
+
+.total-button:active{
+  background-color: var(--shadow-button-total-color);
 }
 
 @media(min-width:576px){

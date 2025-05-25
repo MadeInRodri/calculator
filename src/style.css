@@ -115,6 +115,10 @@ button {
   box-shadow: 0px 4px 0px 0px var(--shadow-button-color);
 }
 
+.char:active{
+  background-color: var(--shadow-button-color);
+}
+
 @media(min-width:576px){
   main{
     width: 25rem;

@@ -12,8 +12,8 @@ export default defineConfig({
         name: "calculator offline",
         short_name: "calculator",
         description: "Calculadora offline",
-        theme_color: "#ffffff",
-        background_color: "#ffffff",
+        theme_color: "#3B4664",
+        background_color: "#3B4664",
         display: "standalone",
         start_url: ".",
         icons: [
